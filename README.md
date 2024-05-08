@@ -7,6 +7,13 @@ We are looking at the risk factors for Apple and Google. For the backend impleme
 
 
 
+
+## Location of Coding Implementation
+Preprocessing and Data Cleaning Code Location: Notebooks --> Edgar_api_item1a.ipynb
+
+Text Parsing Code Location: Notebooks --> getAppleItem1a.ipynb
+
+
 ## References
 - [Project Helper Script](https://github.com/roshan-adusumilli/nlp_10-ks/blob/master/project_helper.py)
 - [MIT License](https://spdx.org/licenses/MIT.html)
