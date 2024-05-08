@@ -1,9 +1,141 @@
-<mxfile host="app.diagrams.net" modified="2024-05-08T03:06:15.457Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" version="24.3.1" etag="YeLDsCXHX_ExEnK-6psy" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-08T03:17:53.516Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="DLFEAhagtcZQdV7MOkLA" version="24.3.1" type="github">
   <diagram name="Page-1" id="V2vcfRySvBNWSirXKgl-">
-    <mxGraphModel>
+    <mxGraphModel dx="989" dy="532" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="vLscpnxXbQEHEHJatwRP-11" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="40" y="70" width="240" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="vLscpnxXbQEHEHJatwRP-6" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="vLscpnxXbQEHEHJatwRP-11">
+          <mxGeometry y="30" width="240" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="vLscpnxXbQEHEHJatwRP-5" value="" style="group" vertex="1" connectable="0" parent="vLscpnxXbQEHEHJatwRP-11">
+          <mxGeometry x="30" y="50" width="180" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="vLscpnxXbQEHEHJatwRP-1" value="Determine the Section we are extracting for analysis&lt;br&gt;(Item 1A - Risk Factors)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="vLscpnxXbQEHEHJatwRP-5">
+          <mxGeometry width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vLscpnxXbQEHEHJatwRP-2" value="Use Python edgartools API" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="vLscpnxXbQEHEHJatwRP-5">
+          <mxGeometry y="110" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vLscpnxXbQEHEHJatwRP-3" value="Get the Item 1A text from the API" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="vLscpnxXbQEHEHJatwRP-5">
+          <mxGeometry y="220" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vLscpnxXbQEHEHJatwRP-9" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="vLscpnxXbQEHEHJatwRP-5" target="vLscpnxXbQEHEHJatwRP-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="60" as="sourcePoint" />
+            <mxPoint x="140" y="10" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vLscpnxXbQEHEHJatwRP-10" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="vLscpnxXbQEHEHJatwRP-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="89.5" y="170" as="sourcePoint" />
+            <mxPoint x="89.5" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vLscpnxXbQEHEHJatwRP-7" value="Preprocessing" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=19;" vertex="1" parent="vLscpnxXbQEHEHJatwRP-11">
+          <mxGeometry x="40" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vLscpnxXbQEHEHJatwRP-12" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="450" y="70" width="240" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="vLscpnxXbQEHEHJatwRP-13" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="vLscpnxXbQEHEHJatwRP-12">
+          <mxGeometry y="30" width="240" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="vLscpnxXbQEHEHJatwRP-14" value="" style="group" vertex="1" connectable="0" parent="vLscpnxXbQEHEHJatwRP-12">
+          <mxGeometry x="30" y="50" width="180" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="vLscpnxXbQEHEHJatwRP-15" value="Get&amp;nbsp; the Extract Item 1A text for a Company (Ticker)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="vLscpnxXbQEHEHJatwRP-14">
+          <mxGeometry width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vLscpnxXbQEHEHJatwRP-16" value="Custom Python cleaner code to remove special characters and extra spaces" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="vLscpnxXbQEHEHJatwRP-14">
+          <mxGeometry y="110" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vLscpnxXbQEHEHJatwRP-17" value="Store the Data in a local folder&lt;div&gt;(/data/item1a_filings/&amp;lt;ticker&amp;gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="vLscpnxXbQEHEHJatwRP-14">
+          <mxGeometry y="220" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vLscpnxXbQEHEHJatwRP-18" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="vLscpnxXbQEHEHJatwRP-14" target="vLscpnxXbQEHEHJatwRP-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="60" as="sourcePoint" />
+            <mxPoint x="140" y="10" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vLscpnxXbQEHEHJatwRP-19" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="vLscpnxXbQEHEHJatwRP-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="89.5" y="170" as="sourcePoint" />
+            <mxPoint x="89.5" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vLscpnxXbQEHEHJatwRP-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="vLscpnxXbQEHEHJatwRP-12" source="vLscpnxXbQEHEHJatwRP-20" target="vLscpnxXbQEHEHJatwRP-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vLscpnxXbQEHEHJatwRP-20" value="Datacleaning" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=19;" vertex="1" parent="vLscpnxXbQEHEHJatwRP-12">
+          <mxGeometry x="150" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vLscpnxXbQEHEHJatwRP-22" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="250" as="sourcePoint" />
+            <mxPoint x="430" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vLscpnxXbQEHEHJatwRP-36" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="440" y="450" width="240" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="vLscpnxXbQEHEHJatwRP-37" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="vLscpnxXbQEHEHJatwRP-36">
+          <mxGeometry y="30" width="240" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="vLscpnxXbQEHEHJatwRP-38" value="" style="group" vertex="1" connectable="0" parent="vLscpnxXbQEHEHJatwRP-36">
+          <mxGeometry x="30" y="50" width="180" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="vLscpnxXbQEHEHJatwRP-39" value="Read the stored yearly Item1a_filing from the stored folder" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="vLscpnxXbQEHEHJatwRP-38">
+          <mxGeometry width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vLscpnxXbQEHEHJatwRP-40" value="Use Chunking to prepare the Context for langchain" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="vLscpnxXbQEHEHJatwRP-38">
+          <mxGeometry y="80" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vLscpnxXbQEHEHJatwRP-42" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="vLscpnxXbQEHEHJatwRP-38" target="vLscpnxXbQEHEHJatwRP-40">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="60" as="sourcePoint" />
+            <mxPoint x="140" y="10" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vLscpnxXbQEHEHJatwRP-44" value="Text Parsing&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=19;" vertex="1" parent="vLscpnxXbQEHEHJatwRP-36">
+          <mxGeometry width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vLscpnxXbQEHEHJatwRP-41" value="Define the prompt_template" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="vLscpnxXbQEHEHJatwRP-36">
+          <mxGeometry x="30" y="200" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vLscpnxXbQEHEHJatwRP-49" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="vLscpnxXbQEHEHJatwRP-36" source="vLscpnxXbQEHEHJatwRP-40" target="vLscpnxXbQEHEHJatwRP-41">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="120" as="sourcePoint" />
+            <mxPoint x="130" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vLscpnxXbQEHEHJatwRP-50" value="use map_reduce" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="vLscpnxXbQEHEHJatwRP-36">
+          <mxGeometry x="30" y="250" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vLscpnxXbQEHEHJatwRP-51" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="vLscpnxXbQEHEHJatwRP-36" source="vLscpnxXbQEHEHJatwRP-41" target="vLscpnxXbQEHEHJatwRP-50">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="180" as="sourcePoint" />
+            <mxPoint x="130" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vLscpnxXbQEHEHJatwRP-52" value="Produce Tuples of Risks by year" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="vLscpnxXbQEHEHJatwRP-36">
+          <mxGeometry x="30" y="300" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vLscpnxXbQEHEHJatwRP-47" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;fillStyle=solid;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="640" y="420" as="sourcePoint" />
+            <mxPoint x="640" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vLscpnxXbQEHEHJatwRP-53" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="730" as="sourcePoint" />
+            <mxPoint x="560" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
