@@ -13,3 +13,9 @@ We are looking at the risk factors for Apple and Google. For the backend impleme
 - [Edgar Tools](https://github.com/dgunning/edgartools)
 - [Langchain 13 Minutes](https://github.com/rabbitmetrics/langchain-13-min)
 - [ChatGPT](https://chatgpt.com/?oai-dm=1)
+
+
+
+
+## DEMO
+A demo of the project is in the docs folder within this repository, which is titled screen_recording.mp4
