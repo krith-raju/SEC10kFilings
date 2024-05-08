@@ -13,6 +13,8 @@ Preprocessing and Data Cleaning Code Location: Notebooks --> Edgar_api_item1a.ip
 
 Text Parsing Code Location: Notebooks --> getAppleItem1a.ipynb
 
+UI Implementation Location: src --> fintech_demo.py
+
 
 ## References
 - [Project Helper Script](https://github.com/roshan-adusumilli/nlp_10-ks/blob/master/project_helper.py)
