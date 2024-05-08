@@ -4,3 +4,12 @@ This contains the code for retrieving,cleaning, and processing 10k filings from 
 Analyzing risk factors in technology companies' 10K filings provides valuable insights into the company's awareness of potential challenges and their proactive strategies for mitigating these risks. This information is crucial for investors, as it helps assess the company's resilience, management's ability to navigate uncertain environments, and the overall sustainability of the business model in a rapidly evolving industry.
 # NOTES AND LIMITATIONS ABOUT DATA
 We are looking at the risk factors for Apple and Google. For the backend implementation, we referenced a github repository "edgar tools", which allowed for retrieving, cleaning, and analyzing all of the 10K filings for up to 13 years. Due to extensive user testing, pivoting to the use of Langchain, and other implementation constraints, we had run out of free API credits. We were able to accurately represent up to 10 years worth of data. With additional API credits, we would have been able to attain the data and accurately represent it with a visualization for as many years as needed.
+
+
+
+## References
+- [Project Helper Script](https://github.com/roshan-adusumilli/nlp_10-ks/blob/master/project_helper.py)
+- [MIT License](https://spdx.org/licenses/MIT.html)
+- [Edgar Tools](https://github.com/dgunning/edgartools)
+- [Langchain 13 Minutes](https://github.com/rabbitmetrics/langchain-13-min)
+- [ChatGPT](https://chatgpt.com/?oai-dm=1)
