@@ -5,6 +5,9 @@ Analyzing risk factors in technology companies' 10K filings provides valuable in
 # Notes And Limitations About Data
 We are looking at the risk factors for Apple and Google. For the backend implementation, we referenced a github repository "edgar tools", which allowed for retrieving, cleaning, and analyzing all of the 10K filings for up to 13 years. Due to extensive user testing, pivoting to the use of Langchain, and other implementation constraints, we had run out of free API credits. We were able to accurately represent up to 10 years worth of data. With additional API credits, we would have been able to attain the data and accurately represent it with a visualization for as many years as needed.
 
+## Process flow 
+![Project Logo](images/logo.png)
+<img src="images/SEC10kFilingsProcessflow.png" alt="Project Screenshot" width="500"/>
 
 ## Location of Coding Implementation
 Preprocessing and Data Cleaning Code Location: Notebooks --> Edgar_api_item1a.ipynb
@@ -26,3 +29,4 @@ Streamlit App UI Implementation Location: src --> fintech_demo.py
 
 ## DEMO
 A demo of the project is in the docs folder within this repository, which is titled screen_recording.mp4
+
